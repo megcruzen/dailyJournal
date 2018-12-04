@@ -1,4 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#journal {
+    width: 500px;
+}
+
 #journal fieldset {
     display: flex;
     flex-direction: column;
+}
+
+.title {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.date {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+
+.mood {
+    color: blue;
+    font-size: 10px;
+    font-weight: bold;
 }
